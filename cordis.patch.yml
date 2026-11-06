@@ -8,6 +8,10 @@
     - id: lemoncat7-web-search
       name: '@lemoncat7/dsh-web-search'
       config:
-        provider: wikipedia
-        wikipedia:
-          language: zh
+        provider: searxng
+        searxng:
+          baseURL: http://127.0.0.1:8080
+          language: ko
+          engines: ['google cse']
+          retryCount: 1
+          safeSearch: 1
