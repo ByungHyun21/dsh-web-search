@@ -12,6 +12,6 @@
         searxng:
           baseURL: http://127.0.0.1:8080
           language: ko
-          engines: ['google cse']
+          engines: ['google cse', yandex, naver]
           retryCount: 1
           safeSearch: 1
